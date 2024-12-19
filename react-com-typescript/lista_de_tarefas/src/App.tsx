@@ -1,20 +1,35 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 
 
 function App() {
+  const inputRef = useRef<HTMLInputElement>(null)
+  const firstRender = useRef(true)
   const [input, setInput] = useState('')
 
-  const [tasks,setTasks] = useState([
-    "Estudar React",
-    "Comprar pão",
-    "Estudar CSS"
-  ])
+  const [tasks,setTasks] = useState<string[]>([])
 
   const [editTask, setEditTask] = useState({
     enabled: false,
     task: ''
   })
+
+  useEffect(() => {
+    const tarefasSalvas = localStorage.getItem('@cursoreact')
+    
+    if(tarefasSalvas){
+      setTasks(JSON.parse(tarefasSalvas))
+    }
+  }, [])
+
+  useEffect(() => {
+    if(firstRender.current){
+      firstRender.current = false
+      return
+    }
+
+    localStorage.setItem('@cursoreact', JSON.stringify(tasks))
+  },[tasks])
 
   function handleDelete(item: string) {
     const newTasks = tasks.filter(task => task !== item)
@@ -22,6 +37,7 @@ function App() {
   }
   
   function handleEditar(item: string) {
+    inputRef.current?.focus()
     setInput(item)
     setEditTask({
       enabled: true,
@@ -31,7 +47,6 @@ function App() {
 
   function handleSalvarEdicao(){
     const findIndexTask = tasks.findIndex(task => task === editTask.task)
-    console.log(findIndexTask)
     const allTasks = [...tasks];
     allTasks[findIndexTask] = input
     console.log(allTasks[findIndexTask])
@@ -50,8 +65,11 @@ function App() {
         value={input}
         onChange={(e) => {
           setInput(e.target.value)
-      }
-        } />
+          }
+        }
+        ref={inputRef} 
+
+        />
         
       <button onClick={() => {
         if(!input) {
