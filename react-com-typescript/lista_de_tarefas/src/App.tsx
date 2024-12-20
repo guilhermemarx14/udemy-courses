@@ -1,5 +1,5 @@
-import { useState, useEffect, useRef } from 'react'
-
+import { useState, useEffect, useRef, useMemo, useCallback } from 'react'
+import './App.css';
 
 
 function App() {
@@ -44,8 +44,7 @@ function App() {
       task: item
     })
   }
-
-  function handleSalvarEdicao(){
+  const handleSalvarEdicao = useCallback(() => {
     const findIndexTask = tasks.findIndex(task => task === editTask.task)
     const allTasks = [...tasks];
     allTasks[findIndexTask] = input
@@ -56,9 +55,29 @@ function App() {
       task: ''
     })
     setInput('')
-  }
+
+  },[editTask.task, input, tasks])
+
+  const handleSalvar = useCallback(() => {
+    if(!input) {
+      alert('Digite uma tarefa')
+      return;
+    }
+
+    if(editTask.enabled) {
+      handleSalvarEdicao()
+      return;
+    }  
+
+    setTasks([...tasks, input])
+    setInput('')
+  },[input, editTask.enabled, tasks, handleSalvarEdicao])
+
+
+  const totalTasks = useMemo(() => tasks.length, [tasks])
+
   return (
-    <div>
+    <div className='container'>
       <h1>Lista de tarefas</h1>
 
       <input placeholder='Digite uma tarefa'
@@ -71,28 +90,22 @@ function App() {
 
         />
         
-      <button onClick={() => {
-        if(!input) {
-          alert('Digite uma tarefa')
-          return;
-        }
-        if(editTask.enabled) {
-          handleSalvarEdicao()
-          return;
-        }  
-        setTasks([...tasks, input])
-        setInput('')
-      }}>
+      <button onClick={handleSalvar}>
         {editTask.enabled ? "Atualizar Tarefa": "Adicionar tarefa"}
       </button>
 
       <hr />
+      <strong>Você tem {totalTasks} tarefas!</strong>
+      <br/><br/>
       {
         tasks.map((item, index) => (
           <section key={item} >
             <span>{item}</span>
-            <button onClick={() => handleEditar(item)}>Editar</button>
-            <button onClick={() => handleDelete(item)} >Excluir</button>
+            <div className="actions">
+              <button onClick={() => handleEditar(item)}>Editar</button>
+              <button onClick={() => handleDelete(item)} >Excluir</button>
+            </div>
+            
           </section>
         ))
       }
