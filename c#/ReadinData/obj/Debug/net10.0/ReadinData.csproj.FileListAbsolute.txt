@@ -1,0 +1,15 @@
+C:\Users\guilh\Documents\udemy-courses\c#\ReadinData\bin\Debug\net10.0\ReadinData.exe
+C:\Users\guilh\Documents\udemy-courses\c#\ReadinData\bin\Debug\net10.0\ReadinData.deps.json
+C:\Users\guilh\Documents\udemy-courses\c#\ReadinData\bin\Debug\net10.0\ReadinData.runtimeconfig.json
+C:\Users\guilh\Documents\udemy-courses\c#\ReadinData\bin\Debug\net10.0\ReadinData.dll
+C:\Users\guilh\Documents\udemy-courses\c#\ReadinData\bin\Debug\net10.0\ReadinData.pdb
+C:\Users\guilh\Documents\udemy-courses\c#\ReadinData\obj\Debug\net10.0\ReadinData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\Documents\udemy-courses\c#\ReadinData\obj\Debug\net10.0\ReadinData.AssemblyInfoInputs.cache
+C:\Users\guilh\Documents\udemy-courses\c#\ReadinData\obj\Debug\net10.0\ReadinData.AssemblyInfo.cs
+C:\Users\guilh\Documents\udemy-courses\c#\ReadinData\obj\Debug\net10.0\ReadinData.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Documents\udemy-courses\c#\ReadinData\obj\Debug\net10.0\ReadinData.sourcelink.json
+C:\Users\guilh\Documents\udemy-courses\c#\ReadinData\obj\Debug\net10.0\ReadinData.dll
+C:\Users\guilh\Documents\udemy-courses\c#\ReadinData\obj\Debug\net10.0\refint\ReadinData.dll
+C:\Users\guilh\Documents\udemy-courses\c#\ReadinData\obj\Debug\net10.0\ReadinData.pdb
+C:\Users\guilh\Documents\udemy-courses\c#\ReadinData\obj\Debug\net10.0\ReadinData.genruntimeconfig.cache
+C:\Users\guilh\Documents\udemy-courses\c#\ReadinData\obj\Debug\net10.0\ref\ReadinData.dll
