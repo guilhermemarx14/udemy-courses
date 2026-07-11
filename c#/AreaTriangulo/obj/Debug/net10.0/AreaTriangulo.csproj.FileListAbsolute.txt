@@ -1,0 +1,15 @@
+C:\Users\guilh\Documents\udemy-courses\c#\AreaTriangulo\obj\Debug\net10.0\AreaTriangulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\Documents\udemy-courses\c#\AreaTriangulo\obj\Debug\net10.0\AreaTriangulo.AssemblyInfoInputs.cache
+C:\Users\guilh\Documents\udemy-courses\c#\AreaTriangulo\obj\Debug\net10.0\AreaTriangulo.AssemblyInfo.cs
+C:\Users\guilh\Documents\udemy-courses\c#\AreaTriangulo\obj\Debug\net10.0\AreaTriangulo.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Documents\udemy-courses\c#\AreaTriangulo\obj\Debug\net10.0\AreaTriangulo.sourcelink.json
+C:\Users\guilh\Documents\udemy-courses\c#\AreaTriangulo\bin\Debug\net10.0\AreaTriangulo.exe
+C:\Users\guilh\Documents\udemy-courses\c#\AreaTriangulo\bin\Debug\net10.0\AreaTriangulo.deps.json
+C:\Users\guilh\Documents\udemy-courses\c#\AreaTriangulo\bin\Debug\net10.0\AreaTriangulo.runtimeconfig.json
+C:\Users\guilh\Documents\udemy-courses\c#\AreaTriangulo\bin\Debug\net10.0\AreaTriangulo.dll
+C:\Users\guilh\Documents\udemy-courses\c#\AreaTriangulo\bin\Debug\net10.0\AreaTriangulo.pdb
+C:\Users\guilh\Documents\udemy-courses\c#\AreaTriangulo\obj\Debug\net10.0\AreaTriangulo.dll
+C:\Users\guilh\Documents\udemy-courses\c#\AreaTriangulo\obj\Debug\net10.0\refint\AreaTriangulo.dll
+C:\Users\guilh\Documents\udemy-courses\c#\AreaTriangulo\obj\Debug\net10.0\AreaTriangulo.pdb
+C:\Users\guilh\Documents\udemy-courses\c#\AreaTriangulo\obj\Debug\net10.0\AreaTriangulo.genruntimeconfig.cache
+C:\Users\guilh\Documents\udemy-courses\c#\AreaTriangulo\obj\Debug\net10.0\ref\AreaTriangulo.dll
