@@ -4,4 +4,6 @@
 
 Simple calculator to sum 2 numbers
 
-Imagens se encontram na pasta assets
+![Texto Alternativo](assets/antes-do-calculo.png)
+
+![Texto Alternativo](assets/depois-do-calculo.png)
