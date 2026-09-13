@@ -4,5 +4,4 @@
 
 Simple calculator to sum 2 numbers
 
-![Before the sum](assets/antes do calculo.png)
-![After the sum](assets/depois do calculo.png)
+Imagens se encontram na pasta assets
