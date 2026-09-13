@@ -1,0 +1,15 @@
+C:\Users\guilh\Documents\udemy-courses\c#\Produto\obj\Debug\net10.0\Produto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\Documents\udemy-courses\c#\Produto\obj\Debug\net10.0\Produto.AssemblyInfoInputs.cache
+C:\Users\guilh\Documents\udemy-courses\c#\Produto\obj\Debug\net10.0\Produto.AssemblyInfo.cs
+C:\Users\guilh\Documents\udemy-courses\c#\Produto\obj\Debug\net10.0\Produto.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Documents\udemy-courses\c#\Produto\obj\Debug\net10.0\Produto.sourcelink.json
+C:\Users\guilh\Documents\udemy-courses\c#\Produto\bin\Debug\net10.0\Produto.exe
+C:\Users\guilh\Documents\udemy-courses\c#\Produto\bin\Debug\net10.0\Produto.deps.json
+C:\Users\guilh\Documents\udemy-courses\c#\Produto\bin\Debug\net10.0\Produto.runtimeconfig.json
+C:\Users\guilh\Documents\udemy-courses\c#\Produto\bin\Debug\net10.0\Produto.dll
+C:\Users\guilh\Documents\udemy-courses\c#\Produto\bin\Debug\net10.0\Produto.pdb
+C:\Users\guilh\Documents\udemy-courses\c#\Produto\obj\Debug\net10.0\Produto.dll
+C:\Users\guilh\Documents\udemy-courses\c#\Produto\obj\Debug\net10.0\refint\Produto.dll
+C:\Users\guilh\Documents\udemy-courses\c#\Produto\obj\Debug\net10.0\Produto.pdb
+C:\Users\guilh\Documents\udemy-courses\c#\Produto\obj\Debug\net10.0\Produto.genruntimeconfig.cache
+C:\Users\guilh\Documents\udemy-courses\c#\Produto\obj\Debug\net10.0\ref\Produto.dll
